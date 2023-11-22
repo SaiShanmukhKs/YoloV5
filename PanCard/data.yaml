@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['IT', 'Logo', 'panNo']
+
+roboflow:
+  workspace: project-school-nfmqb
+  project: pancard-rvpm2
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-school-nfmqb/pancard-rvpm2/dataset/2
